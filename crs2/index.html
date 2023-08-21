@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <img src="img/icon.png" alt="logo">
+        <ul>
+            <li><a class="home-link" href="javascript:location.reload();">HOME</a></li>
+            <li><a class="historia-link" href="#nossa-historia">QUEM SOMOS</a></li>
+            <li><a class="contato-link" href="#contato">CONTATO</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <header>
+            <div class="container-slider">
+                <button id="prev-button"><img src="img/teste4.png" alt="prev-button"></button>
+                <div class="container-images">
+                    <img src="img/vava1.webp" alt="girl" class="slider on">
+                    <img src="img/vava2.webp" alt="girl" class="slider">
+                    <img src="img/vava3.webp" alt="girl" class="slider">
+                    <img src="img/vava4.jpg" alt="girl" class="slider">
+                </div>
+                <button id="next-button"><img src="img/teste4.png" alt="next-button"></button>
+            </div>
+            <div id="nossa-historia" class="historia">
+                <div class="texto">
+                    <h1>Nossa Historia</h1>
+                    <p>Somos Rioters. A Riot Games foi fundada em 2006 com o objetivo de desenvolver, distribuir e
+                        apoiar os maiores e melhores jogos com foco nos jogadores do mundo. Em 2009, nós lançamos o
+                        League of Legends, nosso título de estreia, aclamado no mundo todo.</p>
+                </div>
+                <div class="logo">
+                    <img src="img/logo riot.png" alt="">
+                </div>
+            </div>
+        </header>
+        <main>
+            <h2>AGENTE</h2>
+            <section class="linha">
+                <div class="agente1">
+                    <div class="imgcamp">
+                        <img src="img/Sage.png" alt="Sage">
+                        <button onclick="openModal('sage.html')">SAGE</button>
+                    </div>
+                    <p>Como uma verdadeira fortaleza chinesa, Sage traz segurança para si mesma e para a equipe aonde
+                        quer que vá. Capaz de reviver aliados e rechaçar investidas agressivas, ela oferece um centro de
+                        calmaria em meio ao caos da batalha.</p>
+                </div>
+                <div class="agente2">
+                    <div class="imgcamp">
+                        <img src="img/Jett.png" alt="Jett">
+                        <button onclick="openModal('jett.html')">JETT</button>
+                    </div>
+                    <p>Representando a Coreia do Sul, sua terra natal, Jett tem um estilo de luta ágil e evasivo que
+                        permite que ela assuma riscos como ninguém. Ela corre em meio a qualquer confronto, cortando os
+                        inimigos antes mesmo que eles percebam quem ou o que os atingiu.</p>
+                </div>
+            </section>
+
+            <section class="linha">
+                <div class="agente3">
+                    <div class="imgcamp">
+                        <img src="img/Fade.png" alt="Fade">
+                        <button onclick="openModal('fade.html')">FADE</button>
+                    </div>
+                    <p>Fade, uma caçadora de recompensas turca, usa o poder dos pesadelos para capturar os segredos dos
+                        inimigos. Personificando o próprio terror, ela persegue os alvos e revela seus medos mais
+                        profundos para, depois, destruí-los na escuridão.</p>
+                </div>
+                <div class="agente4">
+                    <div class="imgcamp">
+                        <img src="img/Omen.png" alt="Omen">
+                        <button onclick="openModal('omen.html')">OMEN</button>
+                    </div>
+                    <p>Omen, uma lembrança fantasmagórica, caça nas sombras. Ele cega os inimigos, teleporta-se pelo
+                        campo e deixa a paranoia assumir o controle enquanto o adversário tenta descobrir de onde virá
+                        seu próximo ataque.</p>
+                </div>
+            </section>
+            <section class="linha">
+                <div class="agente5">
+                    <div class="imgcamp">
+                        <img src="img/Raze.png" alt="Raze">
+                        <button onclick="openModal('raze.html')">RAZE</button>
+                    </div>
+                    <p>Raze chega do Brasil em uma explosão de carisma e armas letais. Com seu estilo de jogo
+                        "porradeiro", ela é craque em desentocar inimigos entrincheirados e limpar espaços apertados com
+                        uma bela dose de BUUUM!</p>
+                </div>
+                <div class="agente6">
+                    <div class="imgcamp">
+                        <img src="img/Viper.png" alt="Viper">
+                        <button onclick="openModal('viper.html')">VIPER</button>
+                    </div>
+                    <p>Viper, a química dos Estados Unidos, emprega uma variedade de dispositivos químicos venenosos
+                        para controlar o campo de batalha e prejudicar a visão do inimigo. Se as toxinas não matarem a
+                        presa, seus jogos mentais certamente o farão.</p>
+                </div>
+            </section>
+            <section class="linha">
+                <div class="agente7">
+                    <div class="imgcamp">
+                        <img src="img/Sova.png" alt="Sova">
+                        <button onclick="openModal('sova.html')">SOVA</button>
+                    </div>
+                    <p>Nascido sob o eterno inverno das tundras russas, Sova rastreia, encontra e elimina inimigos com
+                        eficiência e precisão implacáveis. Seu arco personalizado e suas habilidades inigualáveis de
+                        reconhecimento garantem que nenhuma presa escape.</p>
+                </div>
+                <div class="agente8">
+                    <div class="imgcamp">
+                        <img src="img/Reyna.png" alt="Reyna">
+                        <button onclick="openModal('reyna.html')">REYNA</button>
+                    </div>
+                    <p>Criada no coração do México, Reyna domina o combate individual, destacando-se a cada abate
+                        efetuado. Sua capacidade só é limitada por sua própria perícia, tornando-a bastante dependente
+                        de desempenho.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <br><br>
+    <div id="contato" class="contato">
+        <p>João Augustto numero: (44) 99898-7265</p>
+        <p>João Paulo numero: (44) 99909-0699</p>
+        <p>Adriano Ramandelli: (44) 99988-5573</p>
+
+    </div>
+
+    <button id="botaoTopo" class="botaoTopo" onclick="voltarTopo()">Voltar ao topo</button>
+
+</body>
+
+</html>
